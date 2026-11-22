@@ -1,0 +1,16 @@
+{
+    "method": "Boruta",
+    "k": 10,
+    "selected_features": [
+        "RSI_14",
+        "ROC_10",
+        "High_to_Close",
+        "Low_to_Close",
+        "Open_lag_1_ratio",
+        "SMA_10_ratio",
+        "MACD_Line_pct",
+        "MACD_Signal_pct",
+        "ATR_14_pct",
+        "Rolling_Std_20_pct"
+    ]
+}

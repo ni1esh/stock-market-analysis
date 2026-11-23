@@ -85,8 +85,8 @@ def generate_nifty_features():
     # CCI
     df["CCI_20"] = CCIIndicator(high=high, low=low, close=close, window=20).cci()
 
-    # Aroon Indicator
-    aroon = AroonIndicator(close=close, window=25)
+    # Aroon Indicator (uses high and low)
+    aroon = AroonIndicator(high=high, low=low, window=25)
     df["Aroon_Up"] = aroon.aroon_up()
     df["Aroon_Down"] = aroon.aroon_down()
     df["Aroon_Osc"] = df["Aroon_Up"] - df["Aroon_Down"]

@@ -1,13 +1,17 @@
 {
-    "best_k": 12,
+    "total_candidates": 29,
+    "optimal_k": 15,
     "selected_features": [
         "Return_1d",
         "Return_5d",
+        "Intraday_Return",
         "RSI_14",
         "ROC_10",
         "High_to_Close",
         "Low_to_Close",
         "Open_lag_1_ratio",
+        "Close_lag_2_ratio",
+        "Open_lag_3_ratio",
         "SMA_10_ratio",
         "MACD_Line_pct",
         "MACD_Signal_pct",
